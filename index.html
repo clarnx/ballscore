@@ -1,0 +1,31 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="team-board">
+                <h3>HOME</h3>
+                <div class="points-box" id="home-points">0</div>
+                <div class = "button-wrapper">
+                    <button id = "oneforthehometeam" onclick="homeOne()">+1</button>
+                    <button id = "twoforthehometeam" onclick="homeTwo()">+2</button>
+                    <button id = "threeforthehometeam" onclick="homeThree()">+3</button>
+                </div>
+            </div>
+            <div class="team-board">
+                <h3>GUEST</h3>
+                <div class="points-box" id="guest-points">0</div>
+                <div class = "button-wrapper">
+                    <button id = "onefortheguest" onclick="guestOne()">+1</button>
+                    <button id = "twofortheguest" onclick="guestTwo()">+2</button>
+                    <button id = "threefortheguest" onclick="guestThree()">+3</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
