@@ -4,32 +4,32 @@ let guestPoints = document.getElementById("guest-points")
 let hPoints = 0
 let gPoints = 0
 
-function homeOne() {
+export function homeOne() {
     hPoints++
     homePoints.textContent = hPoints
 }
 
-function homeTwo() {
+export function homeTwo() {
     hPoints += 2
     homePoints.textContent = hPoints
 }
 
-function homeThree() {
+export function homeThree() {
     hPoints += 3
     homePoints.textContent = hPoints
 }
 
-function guestOne() {
+export function guestOne() {
     gPoints++
     guestPoints.textContent = gPoints
 }
 
-function guestTwo() {
+export function guestTwo() {
     gPoints += 2
     guestPoints.textContent = gPoints
 }
 
-function guestThree() {
+export function guestThree() {
     gPoints += 3
     guestPoints.textContent = gPoints
 }
